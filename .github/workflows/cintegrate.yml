@@ -44,6 +44,6 @@ jobs:
       - run: npm ci
       - run: npm test
       - run: |
-          echo If Test Pass, Build Your Project ("npm run build")
+          echo If Test Pass, Build Your Project
           echo If Test Fail, Then Do NOT Build Your Project 
 
