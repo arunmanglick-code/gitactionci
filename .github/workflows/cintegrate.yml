@@ -41,9 +41,14 @@ jobs:
         with:
           node-version: 12
 
-      - run: npm ci
-      - run: npm test
-      - run: |
+      - name: Install npm dependencies 
+        run: npm ci
+
+      - name: Run Unit Test
+        run: npm test
+
+      - name: Decide Build or Not
+        run: |
           echo If Test Pass, Build Your Project
           echo If Test Fail, Then Do NOT Build Your Project 
 
