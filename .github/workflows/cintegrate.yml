@@ -40,10 +40,10 @@ jobs:
         uses: actions/setup-node@v1
         with:
           node-version: 12
-          
+
       - run: npm ci
       - run: npm test
       - run: |
-          echo If Test Pass and Now Build Your Project ("npm run build")
-          echo If Test Fail and Do NOT Build Your Project 
+          echo If Test Pass, Build Your Project ("npm run build")
+          echo If Test Fail, Then Do NOT Build Your Project 
 
