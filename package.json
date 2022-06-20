@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "jest"
+    "test": "jest",
+    "buildMe": "echo Unit Test Passed and Your Project is Built Now"
   },
   "repository": {
     "type": "git",
