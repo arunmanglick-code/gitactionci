@@ -5,7 +5,8 @@
   "main": "index.js",
   "scripts": {
     "test": "jest",
-    "buildMe": "echo Unit Test Passed and Your Project is Built Now"
+    "build_CI": "echo Unit Test Passed and Your Project is Built Now",
+    "deploy_CD": "echo  Project is Built. Now this is Deployment"
   },
   "repository": {
     "type": "git",
