@@ -15,7 +15,7 @@ on:
 jobs:
   # This workflow contains a single job called "build and test as part of CI"
   build_test_ci:
-    # The type of runner that the job will run on
+    # The type of runner that the job will run on below
     runs-on: ubuntu-latest
 
     # Steps represent a sequence of tasks that will be executed as part of the job
