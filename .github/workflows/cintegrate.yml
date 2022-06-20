@@ -47,6 +47,6 @@ jobs:
       - name: Run Unit Test
         run: npm test
 
-      - name: Decide Build or Not
+      - name: Depends on Unit Test Pass Results
         run: npm run buildMe
 
