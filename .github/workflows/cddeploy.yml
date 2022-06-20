@@ -42,9 +42,6 @@ jobs:
       - name: Install npm dependencies 
         run: npm ci
 
-      - name: Run Unit Test
-        run: npm test
-
-      - name: Depends on Unit Test Pass Results
+      - name: My Project Deployment
         run: npm run deploy_CD
 
