@@ -46,5 +46,5 @@ jobs:
         run: npm test
 
       - name: Depends on Unit Test Pass Results
-        run: npm run buildMe
+        run: npm run build_CI
 
